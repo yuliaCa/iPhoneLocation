@@ -8,5 +8,4 @@ by [Code Pro](https://www.youtube.com/channel/UCLbjUgzAH_8lNQ9vlStdGdg)
 by [The Swift Guy](https://www.youtube.com/channel/UC-d1NWv5IWtIkfH47ux4dWA)
 
 
-
-
+ ![ Yulia's iPhoneLocation video demo](appDemoVideo.gif) 
