@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2EDAFE12807C8E2003759A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EDAFE02807C8E2003759A9 /* AppDelegate.swift */; };
+		B2EDAFE32807C8E2003759A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EDAFE22807C8E2003759A9 /* SceneDelegate.swift */; };
+		B2EDAFE52807C8E2003759A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EDAFE42807C8E2003759A9 /* ViewController.swift */; };
+		B2EDAFE82807C8E2003759A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EDAFE62807C8E2003759A9 /* Main.storyboard */; };
+		B2EDAFEA2807C8E7003759A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EDAFE92807C8E7003759A9 /* Assets.xcassets */; };
+		B2EDAFED2807C8E7003759A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EDAFEB2807C8E7003759A9 /* LaunchScreen.storyboard */; };
+		B2EDAFF82807C8E7003759A9 /* YuliaMyLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EDAFF72807C8E7003759A9 /* YuliaMyLocationTests.swift */; };
+		B2EDB0022807C8E7003759A9 /* YuliaMyLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EDB0012807C8E7003759A9 /* YuliaMyLocationUITests.swift */; };
+		B2EDB0042807C8E7003759A9 /* YuliaMyLocationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EDB0032807C8E7003759A9 /* YuliaMyLocationUITestsLaunchTests.swift */; };
+		B2EDB0122807C963003759A9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EDB0112807C963003759A9 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2EDAFF42807C8E7003759A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EDAFD52807C8E2003759A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EDAFDC2807C8E2003759A9;
+			remoteInfo = YuliaMyLocation;
+		};
+		B2EDAFFE2807C8E7003759A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EDAFD52807C8E2003759A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EDAFDC2807C8E2003759A9;
+			remoteInfo = YuliaMyLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2EDAFDD2807C8E2003759A9 /* YuliaMyLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuliaMyLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EDAFE02807C8E2003759A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2EDAFE22807C8E2003759A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B2EDAFE42807C8E2003759A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2EDAFE72807C8E2003759A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2EDAFE92807C8E7003759A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2EDAFEC2807C8E7003759A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2EDAFEE2807C8E7003759A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EDAFF32807C8E7003759A9 /* YuliaMyLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuliaMyLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EDAFF72807C8E7003759A9 /* YuliaMyLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuliaMyLocationTests.swift; sourceTree = "<group>"; };
+		B2EDAFFD2807C8E7003759A9 /* YuliaMyLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuliaMyLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EDB0012807C8E7003759A9 /* YuliaMyLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuliaMyLocationUITests.swift; sourceTree = "<group>"; };
+		B2EDB0032807C8E7003759A9 /* YuliaMyLocationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuliaMyLocationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2EDB0112807C963003759A9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2EDAFDA2807C8E2003759A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EDB0122807C963003759A9 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EDAFF02807C8E7003759A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EDAFFA2807C8E7003759A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2EDAFD42807C8E2003759A9 = {
+			isa = PBXGroup;
+			children = (
+				B2EDAFDF2807C8E2003759A9 /* YuliaMyLocation */,
+				B2EDAFF62807C8E7003759A9 /* YuliaMyLocationTests */,
+				B2EDB0002807C8E7003759A9 /* YuliaMyLocationUITests */,
+				B2EDAFDE2807C8E2003759A9 /* Products */,
+				B2EDB0102807C963003759A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EDAFDE2807C8E2003759A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2EDAFDD2807C8E2003759A9 /* YuliaMyLocation.app */,
+				B2EDAFF32807C8E7003759A9 /* YuliaMyLocationTests.xctest */,
+				B2EDAFFD2807C8E7003759A9 /* YuliaMyLocationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2EDAFDF2807C8E2003759A9 /* YuliaMyLocation */ = {
+			isa = PBXGroup;
+			children = (
+				B2EDAFE02807C8E2003759A9 /* AppDelegate.swift */,
+				B2EDAFE22807C8E2003759A9 /* SceneDelegate.swift */,
+				B2EDAFE42807C8E2003759A9 /* ViewController.swift */,
+				B2EDAFE62807C8E2003759A9 /* Main.storyboard */,
+				B2EDAFE92807C8E7003759A9 /* Assets.xcassets */,
+				B2EDAFEB2807C8E7003759A9 /* LaunchScreen.storyboard */,
+				B2EDAFEE2807C8E7003759A9 /* Info.plist */,
+			);
+			path = YuliaMyLocation;
+			sourceTree = "<group>";
+		};
+		B2EDAFF62807C8E7003759A9 /* YuliaMyLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EDAFF72807C8E7003759A9 /* YuliaMyLocationTests.swift */,
+			);
+			path = YuliaMyLocationTests;
+			sourceTree = "<group>";
+		};
+		B2EDB0002807C8E7003759A9 /* YuliaMyLocationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EDB0012807C8E7003759A9 /* YuliaMyLocationUITests.swift */,
+				B2EDB0032807C8E7003759A9 /* YuliaMyLocationUITestsLaunchTests.swift */,
+			);
+			path = YuliaMyLocationUITests;
+			sourceTree = "<group>";
+		};
+		B2EDB0102807C963003759A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2EDB0112807C963003759A9 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2EDAFDC2807C8E2003759A9 /* YuliaMyLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EDB0072807C8E7003759A9 /* Build configuration list for PBXNativeTarget "YuliaMyLocation" */;
+			buildPhases = (
+				B2EDAFD92807C8E2003759A9 /* Sources */,
+				B2EDAFDA2807C8E2003759A9 /* Frameworks */,
+				B2EDAFDB2807C8E2003759A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuliaMyLocation;
+			productName = YuliaMyLocation;
+			productReference = B2EDAFDD2807C8E2003759A9 /* YuliaMyLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2EDAFF22807C8E7003759A9 /* YuliaMyLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EDB00A2807C8E7003759A9 /* Build configuration list for PBXNativeTarget "YuliaMyLocationTests" */;
+			buildPhases = (
+				B2EDAFEF2807C8E7003759A9 /* Sources */,
+				B2EDAFF02807C8E7003759A9 /* Frameworks */,
+				B2EDAFF12807C8E7003759A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EDAFF52807C8E7003759A9 /* PBXTargetDependency */,
+			);
+			name = YuliaMyLocationTests;
+			productName = YuliaMyLocationTests;
+			productReference = B2EDAFF32807C8E7003759A9 /* YuliaMyLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2EDAFFC2807C8E7003759A9 /* YuliaMyLocationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EDB00D2807C8E7003759A9 /* Build configuration list for PBXNativeTarget "YuliaMyLocationUITests" */;
+			buildPhases = (
+				B2EDAFF92807C8E7003759A9 /* Sources */,
+				B2EDAFFA2807C8E7003759A9 /* Frameworks */,
+				B2EDAFFB2807C8E7003759A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EDAFFF2807C8E7003759A9 /* PBXTargetDependency */,
+			);
+			name = YuliaMyLocationUITests;
+			productName = YuliaMyLocationUITests;
+			productReference = B2EDAFFD2807C8E7003759A9 /* YuliaMyLocationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2EDAFD52807C8E2003759A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B2EDAFDC2807C8E2003759A9 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					B2EDAFF22807C8E7003759A9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = B2EDAFDC2807C8E2003759A9;
+					};
+					B2EDAFFC2807C8E7003759A9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = B2EDAFDC2807C8E2003759A9;
+					};
+				};
+			};
+			buildConfigurationList = B2EDAFD82807C8E2003759A9 /* Build configuration list for PBXProject "YuliaMyLocation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2EDAFD42807C8E2003759A9;
+			productRefGroup = B2EDAFDE2807C8E2003759A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2EDAFDC2807C8E2003759A9 /* YuliaMyLocation */,
+				B2EDAFF22807C8E7003759A9 /* YuliaMyLocationTests */,
+				B2EDAFFC2807C8E7003759A9 /* YuliaMyLocationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2EDAFDB2807C8E2003759A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EDAFED2807C8E7003759A9 /* LaunchScreen.storyboard in Resources */,
+				B2EDAFEA2807C8E7003759A9 /* Assets.xcassets in Resources */,
+				B2EDAFE82807C8E2003759A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EDAFF12807C8E7003759A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EDAFFB2807C8E7003759A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EDAFD92807C8E2003759A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EDAFE52807C8E2003759A9 /* ViewController.swift in Sources */,
+				B2EDAFE12807C8E2003759A9 /* AppDelegate.swift in Sources */,
+				B2EDAFE32807C8E2003759A9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EDAFEF2807C8E7003759A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EDAFF82807C8E7003759A9 /* YuliaMyLocationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EDAFF92807C8E7003759A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EDB0042807C8E7003759A9 /* YuliaMyLocationUITestsLaunchTests.swift in Sources */,
+				B2EDB0022807C8E7003759A9 /* YuliaMyLocationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2EDAFF52807C8E7003759A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EDAFDC2807C8E2003759A9 /* YuliaMyLocation */;
+			targetProxy = B2EDAFF42807C8E7003759A9 /* PBXContainerItemProxy */;
+		};
+		B2EDAFFF2807C8E7003759A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EDAFDC2807C8E2003759A9 /* YuliaMyLocation */;
+			targetProxy = B2EDAFFE2807C8E7003759A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2EDAFE62807C8E2003759A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EDAFE72807C8E2003759A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2EDAFEB2807C8E7003759A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EDAFEC2807C8E7003759A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2EDB0052807C8E7003759A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2EDB0062807C8E7003759A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2EDB0082807C8E7003759A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YuliaMyLocation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuliaTest.YuliaMyLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2EDB0092807C8E7003759A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YuliaMyLocation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuliaTest.YuliaMyLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2EDB00B2807C8E7003759A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuliaTest.YuliaMyLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuliaMyLocation.app/YuliaMyLocation";
+			};
+			name = Debug;
+		};
+		B2EDB00C2807C8E7003759A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuliaTest.YuliaMyLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuliaMyLocation.app/YuliaMyLocation";
+			};
+			name = Release;
+		};
+		B2EDB00E2807C8E7003759A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuliaTest.YuliaMyLocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuliaMyLocation;
+			};
+			name = Debug;
+		};
+		B2EDB00F2807C8E7003759A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuliaTest.YuliaMyLocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuliaMyLocation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2EDAFD82807C8E2003759A9 /* Build configuration list for PBXProject "YuliaMyLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EDB0052807C8E7003759A9 /* Debug */,
+				B2EDB0062807C8E7003759A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EDB0072807C8E7003759A9 /* Build configuration list for PBXNativeTarget "YuliaMyLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EDB0082807C8E7003759A9 /* Debug */,
+				B2EDB0092807C8E7003759A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EDB00A2807C8E7003759A9 /* Build configuration list for PBXNativeTarget "YuliaMyLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EDB00B2807C8E7003759A9 /* Debug */,
+				B2EDB00C2807C8E7003759A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EDB00D2807C8E7003759A9 /* Build configuration list for PBXNativeTarget "YuliaMyLocationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EDB00E2807C8E7003759A9 /* Debug */,
+				B2EDB00F2807C8E7003759A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2EDAFD52807C8E2003759A9 /* Project object */;
+}
